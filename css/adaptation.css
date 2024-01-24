@@ -1,0 +1,437 @@
+
+
+/* //////////////////// ADAPTATION /////////////////////////// */
+
+@media screen and (max-width: 767px) {
+    *{
+        margin-left: 0;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    html{
+        background-color: rgb(205, 187, 180);
+    }
+    
+    *,*::before*,*::after{
+        box-sizing: content-box;
+    }
+    body{
+        max-width: 480px;
+        background-color: #380001;
+    }
+    .examples_of_national_clothes_header{
+        max-width: 480px;
+    }
+    
+    .header_national_clothes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    .header_national_clothes_logo{
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+        border-radius: 32px;
+    }
+ 
+    
+    
+    .header{
+        background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) 19.96%, rgba(211, 179, 179, 0.89) 59.46%);
+         max-height: 480px;
+        height: 277px;
+        flex-shrink: 0;
+    }
+    
+    .header_national_clothes{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+  
+    .header_national_clothes_logo{
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 64px;
+        margin-top: 42px;
+        margin-left: 28px;
+    }
+
+    
+    .header_national_clothes_neitionnal_house{
+        position: relative;
+        width: 200px;
+        height: 35px;
+        flex-shrink: 0;
+        color: #380001;
+        font-family: "Montez";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-right: 100px;
+    }
+
+    .national_clothes_logotip{
+        visibility: hidden;
+    }
+
+    .footer_national_clothes_logo{
+        visibility: hidden;
+    }
+    .header_national_clothes_textsbox{
+        position: relative;
+        margin-top: -180px;
+        margin-left: 100px;
+    }
+    
+    .header_national_clothes_title{
+        width: 200px;
+        height: 35px;
+        flex-shrink: 0;
+        color: #220202;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .header_national_clothes_text{
+        width: 122px;
+        height: 41px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "Montserrat";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -17px;
+    }
+    
+    .header_national_clothes_button{
+        width: 111px;
+        height: 23px;
+        flex-shrink: 0;
+        border-radius: 110px;
+        background: #941D04;
+        margin-top: 60px;
+        border: none;
+    }
+    
+    .header_national_clothes_button-text{
+        text-decoration: none;
+        color: #FFF; 
+        text-align: center;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border: 0;
+    }
+
+
+           /* ////////// 2 /////////// */
+
+    .history_chakan{
+        display: flex;
+        position: absolute;
+        width: 480px;
+        height: 400px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #FFFDFD;
+    }
+
+    .historys_chakana{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .history_chakan_title{
+        width: 400px;
+        height: 42px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-family: "Inter";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 82px;
+        margin-left: 23px;
+        margin-bottom: 44px;
+    }
+
+    .history_chakan_text{
+        width: 400px;
+        height: 153px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-left: 23px;
+        top: 10px;
+    }
+
+    .history_chakanimg{
+        gap: 10px;
+        margin-top: 2px;
+        margin-left: 8px;
+        margin-bottom: 11px;
+    }
+        /* /////////////  3  ///////////////////// */
+
+
+    .fashion_designers_national_clothes{
+        position: relative;
+        width: 480px;
+        height: 425px;
+        margin-top: 20px;
+        flex-shrink: 0;
+        background: linear-gradient(90deg, #B88 0.13%, rgba(217, 217, 217, 0.00) 55.68%, rgba(187, 136, 136, 0.88) 99.84%);
+    }
+
+    .fashion_designers_title{
+        position:absolute;
+        display: flex;
+        width: 477px;
+        height: 49px;
+        color: #220202;
+        font-family: "Inter";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    .fashion_designers_box{
+        position:absolute;
+        display:flex;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+        margin-left: 0;
+    }
+
+    .fashion_designers-img1{
+        width: 60px;
+        height:auto;
+    }
+
+
+    .fashion_designers-img2{
+        width: 80px;
+        height: auto;
+    }
+
+    .fashion_designers-img3{
+        width: 135px;
+        height:auto;
+    }
+
+    .fashion_designers-img4{
+        width: 80px;
+        height: auto;
+    }
+
+    .fashion_designers-img5{
+        width: 70px;
+        height:auto;
+    }
+    /* //////////////  4  ///////// */
+
+    .nationals_clothes_elegance{
+        display: block;
+        position: relative;
+        width: 480px;
+        height: auto;
+        flex-shrink: 0;
+        background: #0e0000;
+    }
+
+    .nationals_clothes_elegance_box1_div1{
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .nationals_clothes_elegance_box1_div1_title{
+        width: 400px;
+        height: 80px;
+        flex-shrink: 0;
+        color: #edecec;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 2.89px;
+        
+    }
+
+    .nationals_clothes_elegance_box1_div1_p{
+        position: relative;
+        width: 470px;
+        height: 90px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .nationals_clothes_elegance_box1_div2{
+        position: relative;
+        width: 244px;
+        height: 350px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #D1B1B1;
+        margin-top: 56px;
+        margin-left: 29px;
+        align-items: center;
+    }
+
+    .nationals_clothes_elegance_box1_div3{
+        width: 332.615px;
+        height: 196.405px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #D1B1B1;
+        margin-left: 28px;
+        margin-top: 24px;
+    }
+/* ///// 2box  //// */
+    .nationals_clothes_elegance_box2{
+        background-color: #380001;
+     }
+
+    .nationals_clothes_elegance_box2_div1{
+        position: relative;
+        width: 424.234px;
+        height: 458.279px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #D1B1B1;
+        margin-top: 20px;
+        margin-left: 29px;
+    }
+
+
+    .nationals_clothes_elegance_box2_div2{
+        width: 244px;
+        height: 378px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #D1B1B1;
+        margin-top: 10px;
+        margin-left: 33px;
+    }
+
+    .nationals_clothes_elegance_box2_div3{
+        position: relative;
+        width: 332.615px;
+        height: 523.747px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #D1B1B1;
+        margin-top: 15px;
+        margin-left: 28px;
+        margin-bottom: 20px;
+    }
+
+          /* ////////   footer   ////////// */
+
+    footer{
+        max-width: 480px;
+        height: 365px;
+        flex-shrink: 0;
+        background: linear-gradient(90deg, #D8BCBC 0.12%, #FFF 99.17%);
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .footer_logotip{
+        width: 50px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 64px;
+        margin-top: 42px;
+        margin-left: 68px;
+    }
+
+    .footer_neitionnal_house{
+        position:absolute;
+        width: 200px;
+        height: 35px;
+        flex-shrink: 0;
+        color: #380001;
+        font-family: "Montez";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: -48px;
+        margin-left: 160px;
+        border: 0;
+
+    }
+
+
+    .footer_widgets{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 155px;
+        margin-left: 70px;
+        gap: 26px;
+    }
+
+    .footer_logotip_neitionnal_housewk{
+        width: 35px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+
+    .footer_line{
+        width: 350px;
+        height: 3px;
+        background: #380001;
+        margin-top: 50px;
+        margin-left: -185px;
+    }
+
+    .footer_line_text{
+        position: absolute;
+        width: 125px;
+        height: 19px;
+        flex-shrink: 0;
+        color: #380001;
+        font-family: 'Inter';
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        font-weight: bold;
+        margin-left: 0px;
+        margin-top: 1px;
+    }
+
+
+}
+
+
+    

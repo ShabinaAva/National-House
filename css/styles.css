@@ -1,0 +1,123 @@
+.header_active {
+  }
+  
+.header_national_clothes_li:hover, .header_national_clothes_li:focus, .header_national_clothes_li:active{
+    opacity: .55;
+}
+
+.header {
+    transition: .2s linear; /* плавный переход к background */
+    padding-bottom: 20px; /* внешний отступ снизу */
+    z-index: 999; /* чтобы изображение сделать поверх цвета */
+}
+
+
+.header__burger {
+    display: none;
+    width: 40px;
+    height: 28px;
+    position:relative;
+}
+  
+.burger__line {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 10px;
+    margin-top: 50px;
+}
+  
+  
+.burger__line_first {
+    top: 0;
+}
+  
+.burger__line_second {
+    top: 50%;
+    transform: translateY(-50%);
+}
+  
+.burger__line_third {
+    bottom: -30%;
+}
+
+  /* Header style end */
+
+@media screen and (max-width: 767px) {
+
+    .header__burger {
+      display:block;
+    }
+  
+    .header__nav {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: #000;
+      z-index: 10;
+      padding: 75px;
+      transform: translateX(100%);
+    }
+  
+    .header__nav_active {
+      transform: translateX(0);
+      transition: .2s all linear;
+    }
+  
+    .header__item {
+      width:100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  
+    .header__item:last-child {
+      margin-bottom: 0px;
+    }
+  
+    .header_national_clothes_li {
+      font-size: 42px;
+      line-height: 48px;
+    }
+  
+    .header__nav-close { /* крестик не появляется на экране */
+      display: none;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index:11;
+    }
+    .header__nav-close_active { /* класс - состояние, при появлении добавлении этого класса к header__nav-close */
+      display: block;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      z-index:11;
+    }
+  
+    .header__nav-close-line {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+    }
+  
+    .header__nav-close-line:first-child {
+      transform: translateY(-50%) rotate(45deg);
+    }
+    .header__nav-close-line:last-child {
+      transform: translateY(-50%) rotate(-45deg);
+    }
+
+    
+}
+
